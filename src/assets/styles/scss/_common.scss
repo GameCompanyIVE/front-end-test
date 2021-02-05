@@ -1,0 +1,26 @@
+@import "mixin";
+
+body{
+  margin: 0;
+  padding: 0;
+  @include f-normal;
+  font-size: 18px;
+  background: #FAFAFA;
+  overflow-x: hidden;
+  color: #757C84;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #000000;
+}
+p{
+  margin: 0;
+}
+.container{
+  padding: 0 15px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
